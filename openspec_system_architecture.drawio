@@ -1,0 +1,258 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="OpenSpec系统架构图" id="openspec-architecture">
+    <mxGraphModel dx="1676" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="OpenSpec 系统架构图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontFamily=圆体-简;fontColor=#333333" parent="1" vertex="1">
+          <mxGeometry x="600" y="30" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-ellipse1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=none;opacity=30" parent="1" vertex="1">
+          <mxGeometry x="50" y="100" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=5 5;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="100" y="120" width="1400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-label" value="CLI 命令行接口层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=圆体-简;fontColor=#6c8ebf" parent="1" vertex="1">
+          <mxGeometry x="120" y="130" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-init" value="init&lt;br&gt;项目初始化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="150" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-spec" value="spec&lt;br&gt;规范管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="280" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-change" value="change&lt;br&gt;变更管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="410" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-validate" value="validate&lt;br&gt;验证检查" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="540" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-list" value="list&lt;br&gt;列表查看" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="670" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-show" value="show&lt;br&gt;内容展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="800" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-update" value="update&lt;br&gt;更新升级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="930" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-archive" value="archive&lt;br&gt;归档管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="1060" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="core-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;dashed=1;dashPattern=5 5;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="100" y="280" width="1400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="core-label" value="核心引擎层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=圆体-简;fontColor=#9673a6" parent="1" vertex="1">
+          <mxGeometry x="120" y="290" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="config-module" value="配置管理&lt;br&gt;Config" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="150" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="init-engine" value="初始化引擎&lt;br&gt;InitCommand" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="300" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="template-manager" value="模板管理器&lt;br&gt;TemplateManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="450" y="334" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tool-registry" value="工具注册表&lt;br&gt;ToolRegistry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="600" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="slash-registry" value="斜杠命令注册表&lt;br&gt;SlashCommandRegistry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="750" y="330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="filesystem-utils" value="文件系统工具&lt;br&gt;FileSystemUtils" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="920" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="validation-engine" value="验证引擎&lt;br&gt;ValidateCommand" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="1070" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;dashed=1;dashPattern=5 5;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="100" y="500" width="1089" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-label" value="AI 工具集成层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=圆体-简;fontColor=#d79b00" parent="1" vertex="1">
+          <mxGeometry x="120" y="510" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-claude" value="Claude Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=11;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="570" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-cline" value="Cline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=11;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="350" y="554" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-windsurf" value="Windsurf" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=11;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="690" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-opencode" value="OpenCode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=11;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="807" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-github" value="GitHub&lt;br&gt;Copilot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=11;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="229" y="554" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-more" value="更多 AI 工具..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=11;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="923" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="storage-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;dashed=1;dashPattern=5 5;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="100" y="680" width="1096" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="storage-label" value="数据存储层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=圆体-简;fontColor=#82b366" parent="1" vertex="1">
+          <mxGeometry x="120" y="690" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="openspec-dir" value="openspec/&lt;br&gt;项目目录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="1030" y="724" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="specs-dir" value="specs/&lt;br&gt;规范文档" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="219" y="727" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="changes-dir" value="changes/&lt;br&gt;变更记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="363" y="727" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="config-files" value="配置文件&lt;br&gt;.openspec.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="525" y="727" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="templates" value="模板文件&lt;br&gt;Templates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="683" y="727" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="instructions" value="指令文件&lt;br&gt;Instructions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=12;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="839" y="727" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-to-core1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#6c8ebf;strokeWidth=3;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="cli-init" target="init-engine" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="240" as="sourcePoint" />
+            <mxPoint x="250" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cli-to-core2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#6c8ebf;strokeWidth=3;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cli-spec" target="template-manager" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332" y="225" as="sourcePoint" />
+            <mxPoint x="506" y="327" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="264" />
+              <mxPoint x="510" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cli-to-core3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#6c8ebf;strokeWidth=3;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cli-validate" target="validation-engine" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="637" y="249.9966666666666" as="sourcePoint" />
+            <mxPoint x="1127" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="core-to-ai1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#9673a6;strokeWidth=3;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tool-registry" target="ai-cursor" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="410" as="sourcePoint" />
+            <mxPoint x="710" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="450" />
+              <mxPoint x="530" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="core-to-ai2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#9673a6;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1" parent="1" source="tool-registry" target="ai-claude" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="410" as="sourcePoint" />
+            <mxPoint x="710" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="450" />
+              <mxPoint x="610" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="core-to-ai3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#9673a6;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tool-registry" target="ai-windsurf" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="410" as="sourcePoint" />
+            <mxPoint x="791" y="484" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="450" />
+              <mxPoint x="730" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="core-to-storage1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#82b366;strokeWidth=3;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="filesystem-utils" target="openspec-dir" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="989" y="373" as="sourcePoint" />
+            <mxPoint x="1307" y="661" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="440" />
+              <mxPoint x="1090" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="core-to-storage2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#82b366;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ai-cursor" target="specs-dir" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="410" as="sourcePoint" />
+            <mxPoint x="560" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="650" />
+              <mxPoint x="279" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="core-to-storage3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#B266FF;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#9999FF;" parent="1" source="config-module" target="config-files" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="410" as="sourcePoint" />
+            <mxPoint x="649" y="828" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="825" />
+              <mxPoint x="585" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tech-label" value="OpenSpec v0.13.0 | AI-native 规范驱动开发系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontFamily=圆体-简;fontColor=#666666" parent="1" vertex="1">
+          <mxGeometry x="600" y="850" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WRcBu37_qpch6KA49Pbi-2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#82b366;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;endFill=1" edge="1" parent="1" source="template-manager" target="ai-cursor">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="394" as="sourcePoint" />
+            <mxPoint x="360" y="730" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai-cursor" value="Cursor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=11;fontStyle=1;fontFamily=圆体-简" parent="1" vertex="1">
+          <mxGeometry x="470" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WRcBu37_qpch6KA49Pbi-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1218" y="156" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontFamily=圆体-简" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="图例说明" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=圆体-简;fontColor=#333333" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="100" y="7" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-cli" value="CLI 命令层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#333333;fontSize=12;fontFamily=圆体-简" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="20" y="42" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-cli-text" value="命令行接口" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=圆体-简;fontColor=#333333" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="110" y="47" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-core" value="核心引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#333333;fontSize=12;fontFamily=圆体-简" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="20" y="82" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-core-text" value="业务逻辑处理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=圆体-简;fontColor=#333333" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="110" y="87" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-ai" value="AI 工具" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#333333;fontSize=12;fontFamily=圆体-简" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="20" y="122" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-ai-text" value="外部 AI 集成" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=圆体-简;fontColor=#333333" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="110" y="127" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-storage" value="数据存储" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#333333;fontSize=12;fontFamily=圆体-简" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="20" y="162" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-storage-text" value="文件系统存储" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=圆体-简;fontColor=#333333" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="110" y="167" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-flow" value="→" style="endArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=3;flowAnimation=1;endFill=1" parent="WRcBu37_qpch6KA49Pbi-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="212" as="sourcePoint" />
+            <mxPoint x="70" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-flow-text" value="数据流向" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=圆体-简;fontColor=#333333" parent="WRcBu37_qpch6KA49Pbi-3" vertex="1">
+          <mxGeometry x="110" y="202" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
